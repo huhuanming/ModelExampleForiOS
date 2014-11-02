@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  Model
+//
+//  Created by 胡 桓铭 on 14/11/2.
+//  Copyright (c) 2014年 agile. All rights reserved.
+//
+
+#ifndef Model_PrefixHeader_pch
+#define Model_PrefixHeader_pch
+
+#import <AFNetworking.h>
+#import <Realm/Realm.h>
+#import "RLMObject+AFNetworking.h"
+#import "Post.h"
+#import "User.h"
+#import "AccessToken.h"
+#import "Comment.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
